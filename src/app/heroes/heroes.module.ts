@@ -7,11 +7,10 @@ import {FormsModule} from "@angular/forms";
 import { SpinnerComponent } from './views/spinner/spinner.component';
 import {NgxPaginationModule} from 'ngx-pagination';
 import { HeroeComponent } from './views/heroe/heroe.component';
-import { ModalComponent } from './views/modal/modal.component'; // <-- import the module
 
 
 @NgModule({
-  declarations: [ListadoHeroesComponent, SpinnerComponent, HeroeComponent, ModalComponent],
+  declarations: [ListadoHeroesComponent, SpinnerComponent, HeroeComponent],
     imports: [
         CommonModule,
         HeroesRoutingModule,

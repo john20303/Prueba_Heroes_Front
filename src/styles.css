@@ -103,7 +103,7 @@ h1 {
     border: 10px solid #ffffff;
 }
 
-.heroe-profile .goback {
+ng-container .goback {
     float: left;
 }
 

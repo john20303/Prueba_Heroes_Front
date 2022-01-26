@@ -53,8 +53,9 @@ export class HeroeService {
     });
   }
 
+
   getHeroe(id) {
-    return this.http.get<any>(`${this.ApiUrl}`,id);
+    return this.http.get<any>(this.ApiUrl + id);
   }
 
   getTeamColor(id):string{
@@ -65,4 +66,5 @@ export class HeroeService {
       return "";
     }
   }
+  
 }

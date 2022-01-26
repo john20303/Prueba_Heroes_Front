@@ -29,6 +29,7 @@ export class ListadoHeroesComponent implements OnInit {
 
   go_to(id){
     this.router.navigate(['/heroe',id]);
+    this.heroesService.getHeroe(id);
   }
 
 
