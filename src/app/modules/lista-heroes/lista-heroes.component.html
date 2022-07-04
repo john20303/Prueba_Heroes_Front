@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="titulo">
+        <h2>Tutorial de Angular - Héroes de Marvel</h2>
+    </div>
+
+    <div style="margin-bottom: 10px;">
+        <input type="text" class="form-control" placeholder="Buscar Superheroe">
+    </div>
+
+
+    <div class="row">
+
+        <div class="col-3" *ngFor="let h of listaHeroes" style="margin-bottom: 15px; margin-top: 5px;" (click)="redirectToHero(h.id)">
+
+            <div class="card cardStyle" style="background-color: {{h.color}}">
+                <img src="{{h.urlFinalImagen}}" class="card-img-top" alt="{{h.name}}" style="height: 100%;">
+                <div class="heroTitle">
+                    <label>{{h.name}}</label>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="paginator">
+            <div class="row" style="align-items: center;">
+                <div class="col-4"><a (click)="setOffsetPage(1)" class="prevPage" *ngIf="page > 0">Prev</a></div>
+                <div class="col-4" style="text-align: center;"><label>Página {{page + 1}}</label></div>
+                <div class="col-4"><a (click)="setOffsetPage(2)" class="nextPage">Next</a></div>
+            </div>
+        </div>
+
+
+
+    </div>
+</div>

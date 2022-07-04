@@ -1,0 +1,72 @@
+small.link{
+    cursor: pointer;
+}
+
+small.link:hover{
+    color: brown;
+}
+
+.cardStyle{
+    padding: 15px;
+    border-radius: 10px;
+    height: 350px;
+    cursor: pointer;
+}
+
+.titulo{
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px white solid;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.heroTitle{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    position: absolute;
+    width: 250px;
+    margin-top: 15px;
+    margin-left: 12px;
+}
+
+.nextPage{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+    transform: rotate(8deg);
+    border: 2px white solid;
+    width: 55px;
+    display: flex;
+    float: right;
+}
+
+.prevPage{
+    padding: 10px;
+    background-color: #003aff;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+    transform: rotate(8deg);
+    border: 2px white solid;
+    width: 55px;
+    display: flex;
+    float: left;
+}
+
+div .paginator{
+    width: 100%;
+    background-color: white;
+    margin-top: 15px;
+}

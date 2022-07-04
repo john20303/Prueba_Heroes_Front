@@ -1,28 +1,16 @@
 {
     "cSpell.words": [
-        "Acabas",
-        "apikey",
-        "Atras",
-        "Atrás",
-        "azul",
-        "Búsqueda",
-        "clasificar",
-        "colocar",
-        "cual",
-        "Descripción",
-        "equipo",
-        "grupo",
-        "Heroe",
-        "héroe",
-        "Héroes",
-        "Listado",
-        "naranjo",
-        "Página",
-        "quieres",
-        "Siguiente",
-        "súper",
-        "Tiene",
-        "violeta"
-    ],
-    "angular.enable-strict-mode-prompt": false
+        "Cantidad",
+        "Conectado",
+        "consultar",
+        "corresponde",
+        "datos",
+        "Escuchando",
+        "guardar",
+        "Hasher",
+        "heroe",
+        "mgdb",
+        "registros",
+        "validar"
+    ]
 }

@@ -1,10 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import {HttpClientModule} from "@angular/common/http";
-import {NgxPaginationModule} from 'ngx-pagination'; // <-- import the module
+import { AppRoutingModule } from './app-routing.module';
+import { HttpClientModule } from '@angular/common/http';
+import { StoreModule } from '@ngrx/store';
+import { colorReducer } from './stores/hero.reducers';
 
 @NgModule({
   declarations: [
@@ -14,7 +14,7 @@ import {NgxPaginationModule} from 'ngx-pagination'; // <-- import the module
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    NgxPaginationModule
+    StoreModule.forRoot({ storeColors: colorReducer})
   ],
   providers: [],
   bootstrap: [AppComponent]
